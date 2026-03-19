@@ -1,12 +1,6 @@
-categories: ["cs.CV", "cs.LG", "cs.AI"]
+categories: ["cs.CV", "cs.DB", "cs.AI"]
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
-  - "vision language model"
-  - "training-free"
-  - "training free"
+  - "Text-to-SQL"
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
@@ -45,8 +39,8 @@ email:
 llm:
   provider: "openai-compatible"     # 兼容 OpenAI SDK 的服务
   # 硅基流动的版本
-  base_url: "https://api.siliconflow.cn"
-  model: "Qwen/Qwen2.5-7B-Instruct"
+  base_url: "https://aihubmix.com/v1"
+  model: "gpt-5-nano"
   api_key_env: "OPENAI_COMPAT_API_KEY"
   # Deepseek的版本
   # base_url: "https://api.deepseek.com"
