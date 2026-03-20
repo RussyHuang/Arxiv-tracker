@@ -1,6 +1,8 @@
 categories: ["cs.CV", "cs.DB", "cs.AI"]
 keywords:
   - "Text-to-SQL"
+  - "Text2SQL"
+  - "NL-to-SQL"
   - "NL2SQL"
 
 # exclude_keywords: # 选择排除的关键词
